@@ -1,0 +1,40 @@
+.itemCart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  & > button {
+    border: none;
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  & > button:hover{
+    opacity: 80%;
+  }
+}
+
+.info__itemCart {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.75rem;
+
+  & > img {
+    width: 6.25rem;
+    background-color: var(--grey-color-100);
+    border-radius: var(--radius);
+  }
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+}

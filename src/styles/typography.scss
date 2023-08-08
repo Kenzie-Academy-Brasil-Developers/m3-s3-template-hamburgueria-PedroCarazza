@@ -1,0 +1,56 @@
+.title {
+  font-family: var(--font-primary);
+  color: var(--grey-color-600);
+
+  &.one {
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+  }
+
+  &.two {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+
+  &.three {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+}
+
+.headline {
+  font-family: var(--font-primary);
+  color: var(--grey-color-300);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  &.two{
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--grey-color-600);
+  }
+}
+
+.body {
+  font-family: var(--font-primary);
+  color: var(--grey-color-300);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+
+  &.two {
+    font-weight: 600;
+  }
+}
+
+.caption {
+  font-family: var(--font-primary);
+  color: var(--grey-color-300);
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}

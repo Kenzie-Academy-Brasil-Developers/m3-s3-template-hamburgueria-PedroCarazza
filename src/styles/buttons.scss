@@ -1,0 +1,24 @@
+.btn {
+  font-family: var(--font-primary);
+  border: 0.125rem solid;
+  border-radius: var(--radius);
+  padding: 0 1.25rem 0 1.25rem;
+  cursor: pointer;
+
+  &.default {
+    background-color: #bdbdbd;
+    color: #ffffff;
+    width: 6.25rem;
+    height: 2.5rem;
+    font-weight: 600;
+
+    &:hover {
+      background-color: var(--color-primary);
+      transition: 0.4s;
+    }
+
+    &.remove{
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.input {
+  font-family: var(--font-primary);
+  border: 0.125rem solid var(--grey-color-100);
+  border-radius: var(--radius);
+  padding: 0 0.625rem 0 1.25rem;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.21rem;
+  }
+
+  &:focus {
+    border: var(--grey-color-600);
+  }
+}

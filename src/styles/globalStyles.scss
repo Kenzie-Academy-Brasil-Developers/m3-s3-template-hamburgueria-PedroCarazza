@@ -1,0 +1,22 @@
+:root{
+    --color-primary: #27AE60;
+    --color-secondary: #EB5757;
+
+    --grey-color-0: #F5F5F5;
+    --grey-color-100: #E0E0E0;
+    --grey-color-300: #828282;
+    --grey-color-600: #333333;
+
+    --negative: #E60000;
+    --warning: #FFCD07;
+    --sucess: #168821;
+    --information: #155BCB;
+
+    --font-primary: 'Inter', sans-serif;
+
+    --radius: 0.5rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,16 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1.25rem;
+    margin-top: 1.5625rem;
+}
+
+@media (min-width: 1024px) {
+    .list{
+        padding: 0 12.25rem;
+        flex-wrap: wrap;
+        gap: 2.375rem;
+    }
+}
